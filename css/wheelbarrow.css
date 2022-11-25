@@ -1,16 +1,17 @@
 html {
   background: url(../images/beautiful-day.jpg) no-repeat top center;
-}
+ csshomeugiphase-0-css-kitten-labimagesbeautiful-daypg
 
-img {
-  position: relative;
-  z-index: 11;
-  cursor: pointer;
+
 }
+  position relative
+  z-index,
+  cursor , pointer
+
 
 .wrapper {
-  position: relative;
-  width: 960px;
+  position: 
+  Width;: 960px;
   height: 100vh;
   margin: 0 auto;
 }
@@ -31,10 +32,20 @@ img {
   pointer-events: none;
   position: absolute;
   background: url(../images/wheelbarrow-foreground.png) no-repeat;
+  csshometugiphase-0-css-kitten-labimageswheelbarrow-foregroundpng
   z-index: 10;
   top: 220px;
 }
 
 #basket, #ball {
   display: inline;
+}
+.parent-element {
+  position: relative;
+}
+
+.child-element {
+  position: absolute;
+  top: 50px;
+  left: 50px;
 }
